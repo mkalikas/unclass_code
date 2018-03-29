@@ -5,6 +5,7 @@
 
 <head>
 <title> Super Salad Bar Brand Ambassador Application </title>
+</head>
 
   <script>
   function validateForm() {
@@ -22,12 +23,12 @@
 
   <form name="myForm" action="/action_page.php"
   onsubmit="return validateForm()" method="post">
-  First Name: <input type="text" name="fname" value=""> <br>
-  Last Name: <input type="text" name="lname" value=""> <br>
-  Email Address: <input type="text" name="email" value=""> <br>
-  Birthday: <input type="text" name="Birthday" value=""> <br>
-  Profession: <input type="text" name="pname" value=""> <br>
-  Have you ever been a brand ambassador before? If so, where?: <input type="text" name="brand" value=""> <br>
+  First Name: <input type="text" name="fname"> <br>
+  Last Name: <input type="text" name="fname"> <br>
+  Email Address: <input type="text" name="fname"> <br>
+  Birthday: <input type="text" name="fname"> <br>
+  Profession: <input type="text" name="fname"> <br>
+  Have you ever been a brand ambassador before? If so, where?: <input type="text" name="fname"> <br>
   What is your favorite social media platform? <br>
     <input type="radio" value="Facebook"> Facebook <br>
     <input type="radio" Value="Instagram"> Instagram <br>
