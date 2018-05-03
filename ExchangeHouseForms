@@ -31,7 +31,6 @@
     <input type="text" name="fname" value=""> <br>
     Would you like to receive updates on future events?<input type="radio" value=""> YES <input type="radio" value=""> NO <br>
 
-</body>
 
 <h2>Donation Form</h3>
   <form name="myForm" action="/action_page.php"
@@ -59,9 +58,7 @@
     <input type="text" name="fname" value=""> <br>
 What kind of product will you be selling? <input type="text" name="fname" value=""> <br>
 Would you like to receive updates on future events? <input type="radio" value=""> YES <input type="radio" value=""> NO <br>
-
+</body>
 
 <footer>Please contact us if you need more infrommation or have any questions.</footer>
-
-</head>
 </html>
