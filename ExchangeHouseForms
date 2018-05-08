@@ -5,18 +5,34 @@
   <style>
   body {
       background-image: url("Globe.png");
+      background-repeat: no-repeat;
+      background-position: right top;
+      background-color: #b3ffcc;
+      color: #3300FF;
+      margin-right: 450px;
+
+}
+
+  h1 {
+    color: #003311;
+    text-align: center;
+    font-weight: bold;
+
+  }
+
+  footer {
+    text-align: center;
+    color: #FF0099;
   }
   </style>
-
-
-<h1>Exchange House Forms</h1>
 </head>
-
-<h2>Sponsorship Form</h2>
-
 <body>
+<h1>Exchange House Forms</h1>
 
-  <form name="myForm" action="/actihon_page.php"
+<h2 style=color:red>Sponsorship Form</h2>
+
+
+  <form name ="myForm" action="/actihon_page.php"
   onsubmit="return validateForm()" method="post">
   First and Last Name: <input type="text" name="fname" value=""> <br>
   Company name: <input type="text" name="cname" value=""> <br>
@@ -32,7 +48,7 @@
     Would you like to receive updates on future events?<input type="radio" value=""> YES <input type="radio" value=""> NO <br>
 
 
-<h2>Donation Form</h3>
+<h2 style=color:red>Donation Form</h3>
   <form name="myForm" action="/action_page.php"
   onsubmit="return validateForm()" method="post">
   First and Last Name: <input type="text" name="fname" value=""> <br>
@@ -42,7 +58,7 @@
   How much would you like to donate?<input type="text" name="Number" value=""> <br>
   Would you like to receive updates on future events?   <input type="radio" value=""> YES <input type="radio" value=""> NO <br>
 
-<h2>Vendor Form</h3>
+<h2 style=color:red>Vendor Form</h3>
   <form name="myForm" action="/action_page.php"
   onsubmit="return validateForm()" method="post">
   First and Last Name: <input type="text" name="fname" value=""> <br>
