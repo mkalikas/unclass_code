@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+  <style>
+  body {
+      background-image: url("Globe.png");
+      background-repeat: no-repeat;
+      background-position: right top;
+      background-color: #b3ffcc;
+      color: #3300FF;
+      margin-right: 450px;
+
+}
+
+  h1 {
+    color: #003311;
+    text-align: center;
+    font-weight: bold;
+
+  }
+
+  footer {
+    text-align: center;
+    color: #FF0099;
+  }
+  </style>
+</head>
+<body>
+<h1>Exchange House Forms</h1>
+
+<h2 style=color:red>Sponsorship Form</h2>
+
+
+  <form name ="myForm" action="/actihon_page.php"
+  onsubmit="return validateForm()" method="post">
+  First and Last Name: <input type="text" name="fname" value=""> <br>
+  Company name: <input type="text" name="cname" value=""> <br>
+  Email Address: <input type="text" name="email" value=""> <br>
+  Phone Number: <input type="text" name="Number" value=""> <br>
+  What event would you like to sponser? <br>
+    <input type="radio" value="Open Mic Night"> Open Mic Night <br>
+    <input type="radio" Value="Play"> Play <br>
+    <input type="radio" Value="Festival"> Festival <br>
+    <input type="radio" Value="Potluck"> Potluck <br>
+    <input type="radio" name="fill in the blank">
+    <input type="text" name="fname" value=""> <br>
+    Would you like to receive updates on future events?<input type="radio" value=""> YES <input type="radio" value=""> NO <br>
+
+
+<h2 style=color:red>Donation Form</h3>
+  <form name="myForm" action="/action_page.php"
+  onsubmit="return validateForm()" method="post">
+  First and Last Name: <input type="text" name="fname" value=""> <br>
+  Company name: <input type="text" name="cname" value=""> <br>
+  Email Address: <input type="text" name="email" value=""> <br>
+  Phone Number: <input type="text" name="Number" value=""> <br>
+  How much would you like to donate?<input type="text" name="Number" value=""> <br>
+  Would you like to receive updates on future events?   <input type="radio" value=""> YES <input type="radio" value=""> NO <br>
+
+<h2 style=color:red>Vendor Form</h3>
+  <form name="myForm" action="/action_page.php"
+  onsubmit="return validateForm()" method="post">
+  First and Last Name: <input type="text" name="fname" value=""> <br>
+  Comapny Name: <input type="text" name="fname" value=""> <br>
+  Email Address: <input type="text" name="email" value=""> <br>
+  Phone Number: <input type="text" name="Number" value=""> <br>
+  Which event do you want to sell your products at? <br>
+    <input type="radio" value="Open Mic Night"> Open Mic Mic Night <br>
+    <input type="radio" Value="Play"> Play <br>
+    <input type="radio" Value="Festival"> Festival <br>
+    <input type="radio" Value="Potluck"> Potluck <br>
+    <input type="radio" name="fill in the blank">
+    <input type="text" name="fname" value=""> <br>
+What kind of product will you be selling? <input type="text" name="fname" value=""> <br>
+Would you like to receive updates on future events? <input type="radio" value=""> YES <input type="radio" value=""> NO <br>
+</body>
+
+<footer>Please contact us if you need more infrommation or have any questions.</footer>
+</html>
